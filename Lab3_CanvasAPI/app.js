@@ -2,8 +2,8 @@
 
 document.addEventListener("DOMContentLoaded", (event) => {
 
-    const canvas = document.getElementById("canvas");
-    const ctx = canvas.getContext("2d");
+    let canvas = document.getElementById('canvas');
+    let ctx = canvas.getContext('2d');
     
     ctx.fillStyle = "green";
     ctx.fillRect(0, 200, 500, 100);
